@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.link-canal {
+    color: blue;
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+}
+.link-canal:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+@media (max-width: 370px) {
+    .container h1 {
+        font-size: 27px;
+    }
+    .link-canal {
+        font-size: 18px;
+    }
+}
